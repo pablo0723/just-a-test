@@ -1,0 +1,33 @@
+[
+  {
+    "model": "personal.profile",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$Zt0Z6GGLOkqG$HIft465kv5p0Gb7t1SFrm4M+GI0bLB3DY23/1IvOKIk=",
+      "last_login": "2021-05-07T23:53:37.392Z",
+      "is_superuser": true,
+      "first_name": "Administrator",
+      "last_name": "Test",
+      "email": "admin@test.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-05-06T22:36:02Z",
+      "username": "test-admin",
+      "title": 1,
+      "initials": null,
+      "date_of_birth": "1986-01-01",
+      "gender": 1,
+      "ethnicity": 1,
+      "phone_number": "",
+      "mobile_number": "",
+      "terms_and_conditions": null,
+      "created": "2021-05-06T22:36:02.107Z",
+      "updated": "2021-05-06T20:37:39.020Z",
+      "groups": [],
+      "user_permissions": [],
+      "profile_type": [
+        1
+      ]
+    }
+  }
+]

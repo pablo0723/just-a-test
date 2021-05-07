@@ -1,0 +1,10 @@
+[
+  {"model": "personal.ethnicity",
+    "pk": 1,
+    "fields": {
+      "ethnicity": "Other",
+      "created": "2015-08-25T04:10:21Z",
+      "updated": "2015-08-25T04:10:21Z"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "model": "personal.profiletype",
+    "pk": 1,
+    "fields":
+    {
+      "profile_type": "superuser",
+      "description": "",
+      "created": "2021-05-05T00:02:22.736Z",
+      "updated": "2021-05-05T00:02:22.736Z"
+    }
+  },
+  {
+    "model": "personal.profiletype",
+    "pk": 2,
+    "fields": {
+      "profile_type": "administrator",
+      "description": "",
+      "created": "2021-05-05T00:02:48.419Z",
+      "updated": "2021-05-05T00:02:48.419Z"
+    }
+  },
+  {
+    "model": "personal.profiletype",
+    "pk": 3,
+    "fields": {
+      "profile_type": "personal",
+      "description": "", "created": "2021-05-05T00:03:40.532Z",
+      "updated": "2017-05-05T00:03:40.532Z"
+    }
+  }
+]

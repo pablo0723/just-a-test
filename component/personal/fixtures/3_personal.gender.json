@@ -1,0 +1,20 @@
+[
+  {
+    "model": "personal.gender",
+    "pk": 1,
+    "fields": {
+      "gender": "male",
+      "created": "2021-05-04T03:55:50.253Z",
+      "updated": "2021-05-04T03:55:50.254Z"
+    }
+  },
+  {
+    "model": "personal.gender",
+    "pk": 2,
+    "fields": {
+      "gender": "female",
+      "created": "2021-05-04T03:55:57.201Z",
+      "updated": "2021-05-04T03:55:57.201Z"
+    }
+  }
+]
