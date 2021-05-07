@@ -1,0 +1,14 @@
+[
+  {
+    "model": "reminder.reminder",
+    "pk": 1,
+    "fields":
+    {
+      "email": "test@emauil.com",
+      "text": "test reminder text",
+      "delay": 1,
+      "created": "2021-05-05T00:02:22.736Z",
+      "updated": "2021-05-05T00:02:22.736Z"
+    }
+  }
+]
