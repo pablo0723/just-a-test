@@ -1,13 +1,10 @@
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.generics import ListCreateAPIView, DestroyAPIView
 from rest_framework.permissions import AllowAny
-from rest_framework.response import Response
 
 from component.reminder.models import Reminder
 from component.reminder.serializers import ReminderSerializer
-from component.reminder.tasks import send_email
 
 
 class ReminderListCreateView(ListCreateAPIView):

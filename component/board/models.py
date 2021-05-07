@@ -9,6 +9,9 @@ class Board(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        ordering = ['slug']
+
 
 class TodoTask(models.Model):
     board = models.ForeignKey(Board, on_delete=models.CASCADE, related_name='todos')
@@ -17,3 +20,6 @@ class TodoTask(models.Model):
     # Administrative Fields
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['board']
