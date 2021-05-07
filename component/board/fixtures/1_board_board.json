@@ -1,0 +1,13 @@
+[
+  {
+    "model": "board.board",
+    "pk": 1,
+    "fields":
+    {
+      "name": "test board",
+      "slug": "test-board",
+      "created": "2021-05-05T00:02:22.736Z",
+      "updated": "2021-05-05T00:02:22.736Z"
+    }
+  }
+]

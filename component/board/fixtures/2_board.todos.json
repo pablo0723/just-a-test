@@ -1,0 +1,24 @@
+[
+  {
+    "model": "board.todotask",
+    "pk": 1,
+    "fields": {
+      "board": 1,
+      "name": "Test Todo 1",
+      "done": false,
+      "created": "2021-05-04T03:52:04.066Z",
+      "updated": "2021-05-04T03:52:04.066Z"
+    }
+  },
+  {
+    "model": "board.todotask",
+    "pk": 2,
+    "fields": {
+      "board": 1,
+      "name": "Test Todo 2",
+      "done": true,
+      "created": "2021-05-04T03:52:09.010Z",
+      "updated": "2021-05-04T03:52:09.010Z"
+    }
+  }
+]
