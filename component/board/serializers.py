@@ -16,10 +16,9 @@ class BoardSerializer(serializers.ModelSerializer):
         ]
 
     def get_todos(self, board):
-        todos = TodoTask.objects.filter(board=board)
         if self.context.get('request').path.endswith('boards/'):
-            return todos.count()
-        return TodoTaskSerializer(todos, many=True).data
+            return TodoTask.objects.filter(board=board).count()
+        return TodoTaskSerializer(TodoTask.objects.filter(board=board), many=True).data
 
 
 class TodoTaskSerializer(serializers.ModelSerializer):
