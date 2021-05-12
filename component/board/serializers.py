@@ -16,7 +16,8 @@ class BoardSerializer(serializers.ModelSerializer):
         ]
 
     def get_todos(self, board):
-        if self.context.get('view').__class__.__name__ == 'BoardListCreateView':
+        from component.board.views import BoardListCreateView
+        if isinstance(self.context.get('view'), BoardListCreateView):
             return TodoTask.objects.filter(board=board).count()
         return TodoTaskSerializer(TodoTask.objects.filter(board=board), many=True).data
 
