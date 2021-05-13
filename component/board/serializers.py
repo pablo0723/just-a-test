@@ -28,6 +28,7 @@ class TodoTaskSerializer(serializers.ModelSerializer):
         model = TodoTask
         fields = [
             'id',
+            'board',
             'name',
             'done'
         ]
