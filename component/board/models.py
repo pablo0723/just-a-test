@@ -16,6 +16,10 @@ class Board(models.Model):
     class Meta:
         ordering = ['slug']
 
+    @property
+    def todos_count(self):
+        return self.todos.count()
+
 
 class TodoTask(models.Model):
     # created_by = models.ForeignKey(Profile, related_name='created_by', on_delete=models.CASCADE) Not specified in task just in case
