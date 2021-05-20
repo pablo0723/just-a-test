@@ -14,11 +14,11 @@ fi
 
 echo -n "- Cleaning up any migrations that already exist: "
 find . -type f -name '[0-9][0-9][0-9][0-9]*.py' -delete > /dev/null 2>&1
-sudo py3clean .
+py3clean .
 echo -e "[${GREEN}Done${NC}]"
 
 echo -n "- Installing requirements:                       "
-sudo pip3 install -r requirements.txt --upgrade > /dev/null 2>&1
+pip3 install -r requirements.txt --upgrade > /dev/null 2>&1
 echo -e "[${GREEN}Done${NC}]"
 
 echo -n "- Creating the database:                         "
